@@ -1,0 +1,2813 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+	html{
+		height:2000px; 
+		margin-left: 10px;margin-right: 10px;margin-bottom:0;margin-top:0;
+		overflow:scroll;
+	}
+
+	
+	header{
+	background-color:#57a382; 
+		min-height:20pt;
+		margin-top:0;margin-left:0px;
+		position:fixed;
+		
+		overflow:scroll;
+		z-index:1000;
+		width:100%;
+		top:0;left:0;	
+
+	
+	}
+
+
+
+
+
+
+
+	
+
+ul,li{
+
+
+font-family:Apercu; 
+		font-weight:light;
+		
+		
+	
+		font-size:1vw; 
+		text-align:left;
+
+		color:#57a382;
+		
+
+
+
+
+}
+
+p{
+	
+	font-family:Apercu;
+	font-size:1vw;
+	text-align: left;
+	color:#57a382;
+	
+	
+}	
+	
+
+
+form#registration_form{
+
+position:absolute;
+		margin-left:2%;
+	
+		margin-top:5%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		width:30%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+	
+	img{
+
+        width:20%;
+		height:auto;
+		margin-right:auto;
+		margin-left:auto;
+		position: relative;
+		padding-bottom: 1%;
+		padding-top:1%;
+		
+display:table-row-group;   
+
+}
+	
+	
+	
+	body{
+		
+	
+		height:1500px;width:900px; margin-top:5%	
+	
+		
+	}
+	
+	
+
+
+header a{
+font-family:Apercu; 
+		font-weight:light;
+		font-size:1vw; 
+		text-align:right;
+margin-top: -30%;	
+	margin-left:80%;
+		color:white;
+	position: relative;
+	width:10%;
+}
+
+header h2{
+position:relative;
+	font-family:Apercu; 
+		font-weight:light;
+		font-size:1vw; 
+	color:white;
+	
+	margin-top:-2%;
+	margin-left:65%;
+	
+	
+}
+
+
+p.logstatus{
+margin-top:2%;
+position:absolute;
+color: #57a382;
+font-family:Apercu;
+font-size:1.5vw;
+}
+
+
+
+form #subbutton{
+border-radius: 6px;
+	width:6vw; height:2vw;
+background-color:white;
+color:#57a382;
+border: 1px solid #57a382;
+font-family:Apercu;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:10pt;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom:auto;
+display:table-row-group;
+
+
+
+}
+
+
+	form #subbutton:hover{
+	background-color:rgba(87,163,130,0.4);
+	color:white;
+	border: 1px solid #57a382;
+	font-family:Apercu;
+	font-weight:bold;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+button.deletikovski{
+	
+	
+	
+border-radius: 6px;
+	width:6vw; height:2vw;
+background-color:white;
+color:#57a382;
+border: 1px solid #57a382;
+font-family:Apercu;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:1vw;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom:auto;
+display:inline;
+	
+}
+
+
+
+
+	button.deletikovski:hover{
+	background-color:red;
+	border: 1px solid #57a382;
+	font-family:Apercu;
+	font-weight:light;
+	}
+
+	
+
+a.log{
+	
+	font-family:Apercu;
+	font-size:1vw;
+	text-align: center;
+	color:#57a382;
+	
+	
+}
+
+
+a.log:hover{
+	color:#57a382;
+	font-family:Apercu;
+	font-weight:bold;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+	
+	font-family:Apercu;
+	font-size:1vw;
+	text-align: center;
+	color:#57a382;
+	
+	
+}
+
+
+a:hover{
+	color:white;
+	font-family:Apercu;
+	font-weight:bold;
+	text-decoration: none;
+	
+}
+
+	button:hover{
+	background-color:rgba(87,163,130,0.4);
+	color:white;
+	border: 1px solid #57a382;
+	font-family:Apercu;
+	font-weight:bold;
+	}
+	
+	@font-face {
+   font-family: Apercu;
+   src: url(https://ifcpraktik.hannahbanana.se/ifc/font/Apercu%20Light.otf);
+		   font-weight: light;
+
+}
+
+@font-face {
+   font-family: Apercu;
+   src: url(https://ifcpraktik.hannahbanana.se/ifc/font/Apercu%20Bold.otf);
+   font-weight: bold;
+}
+
+* {
+   font-family: Apercu;
+}
+	
+
+div.tablescroll{
+
+		height:1px;
+ overflow-y: scroll;
+width:0.1%;
+margin-top:80%
+
+
+		
+		}
+
+	
+
+ table {
+position:absolute;
+        width:75%;
+		max-height: 3000px;
+        border-collapse: collapse;
+        margin-left:20%;
+        margin-top:5%;
+        z-index:-1;
+      
+   
+
+
+    }
+
+    table,th,td {
+        border: 1px solid #57a382;
+
+    }
+
+   
+    th{      
+        font-size: 2vw;
+        font-family: Apercu;
+		background-color:rgba(87,163,130,0.8);
+		font-weight:bold;
+        color:white;
+        text-align: center;
+		
+
+
+    }
+    td{
+        
+        font-size: 1.5vw;
+        font-family: Apercu;
+		font-weight:light;
+        color:#57a382;
+        text-align: center;
+		
+	
+
+    }
+
+
+    tr:hover{
+        background-color: #EED0DC;
+		
+		padding-right:5px;
+		padding-left:5px;
+	
+
+       
+	}
+	
+	
+.youtubelink a{
+	
+	font-family:Apercu; 
+		font-weight:bold;
+		font-size:2vw; 
+		text-align:right;
+
+		color:white;
+	position:absolute;
+	margin-top:-5%;
+	margin-left:80%;
+	
+	
+}
+	
+	
+		
+	
+	
+	form{
+		
+		position:absolute;
+		margin-left:2%;
+	
+		margin-top:4%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+display:grid;
+}
+
+
+
+
+form input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+width:15vw;
+
+}
+	
+	
+	form h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		max-width:150px; 
+		height:auto;
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		
+	}
+
+
+
+div.form2{
+	
+		margin-left:0%;
+		margin-top:12%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1vw; 
+	width:15%;
+	position:fixed;
+line-height: 0;
+	
+
+	
+}
+
+
+div.form2 input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		border:solid 1px rgba(87,163,130,1.00);
+
+}
+	
+	
+	div.form2 h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+
+	}
+
+
+form.form3{
+	
+		margin-left:0;
+		margin-top:15%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		position:absolute;
+		line-height:12pt;
+		
+		font-size:1vw; 
+width:30%;
+
+	
+}
+
+
+form.form3 input{
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+
+}
+	
+form.form3 h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+
+form.form3 input#button{
+
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:10pt; 
+		border:solid 1px rgba(87,163,130,1.00);	
+	background-color: transparent;
+	width:6vw;
+	border-radius:6pt;
+		height:2vw;
+	margin-top:0.1%;
+
+}
+
+
+form.form3 input#button:hover{
+	
+		font-weight:bold;
+		background-color: rgba(87,163,130,0.4);
+
+}
+
+
+
+
+button#client
+{
+	
+	
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:10pt; 
+		border:solid 1px rgba(87,163,130,1.00);	
+		background-color:transparent;
+	width:6vw;
+	border-radius:6pt;
+	height:2vw;
+	margin-top:-7%;
+margin-left:22%;
+
+	
+	
+
+}
+
+
+button#client a{
+font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:10pt;
+		
+}
+
+
+button#client:hover{
+	
+		font-weight:bold;
+		background-color: rgba(87,163,130,0.4);
+
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	div.frame1 img{
+						margin-top:5%;
+
+			left:0;
+			height:100%;
+			width:10%;
+			top:0;
+			position: fixed;
+			
+		}
+		
+			div.frame2 img{
+			margin-top:5%;
+			top:0;		
+			right:0;
+			height:100%;
+			width:10%;
+			position:fixed;
+			
+			
+		}
+
+
+
+
+
+.formlog{
+		
+		  width: 15%;
+ 
+	margin-top:5%;
+  margin-left:0;
+	 
+
+	display:block;
+
+		
+}
+
+
+
+
+
+.formlog input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+	
+		width:100%;
+
+}
+	.formlog #button{
+	margin-top:10%;
+	position:absolute;
+	
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:10pt; 
+		border:solid 1px rgba(87,163,130,1.00);	
+		background-color:transparent;
+	width:6vw;
+	border-radius:6pt;
+
+	
+	}
+	
+	.formlog #button:hover{
+	font-weight:bold;
+		background-color: rgba(87,163,130,0.4);
+		}
+	
+	.formlog h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		line-height:0.7;
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		
+		
+	}
+
+
+
+
+
+
+form.login{
+			position: absolute;
+			display:block;
+			text-align:center;
+			height:200px;
+			width:50%;
+			margin-left: auto;
+			margin-right: auto;
+			line-height:0.7;
+			
+		}
+				form.login h1{
+					text-align: center;
+								display:block;
+					margin-left: auto;
+			margin-right: auto;
+			margin-top:10%;
+
+		}
+
+
+div.image img{
+	
+width:auto;
+height:150px;
+
+	position:fixed;
+	margin-left:0;
+	margin-top:2%;
+
+	
+
+
+}
+
+
+
+
+div.editimage img{
+	
+height:auto;
+width:200px;
+	position:absolute;
+	margin-left:0;
+	margin-top:-30%;
+
+
+
+}
+
+	div.tab {
+        overflow: hidden;
+		width:60%;
+        border: 1px solid #ccc;
+        background-color: #57a382;
+        height:60%;
+      margin-top:7%;
+        margin-left:20%;
+        position:absolute;
+		color:white;
+		font-family: Apercu;
+		font-weight: light;
+		
+
+    }
+
+
+
+
+    /* Style the buttons inside the tab */
+    div.tab button {
+        background-color: inherit;
+        float: left;
+        border: white;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 1.2vw;
+        color:white;
+		font-family: Apercu;
+		font-weight: light;
+		width:8vw;
+height:1.5vw;
+
+    }
+
+
+
+div.tabcontent textarea{
+		
+		color:#57a382;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:14pt;
+		text-align:left;
+		width:100%;
+		height:90%;
+		
+	}
+
+	
+
+
+
+
+	
+
+
+    /* Change background color of buttons on hover */
+    div.tab button:hover {
+        background-color: #5B878B;
+    }
+
+    /* Create an active/current tablink class */
+    div.tab button.active {
+        background-color: #EED0DC;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: table;
+        border: 1px solid #ccc;
+        opaque:false;
+        height:100%;
+       width:100%;	
+       overflow-y:scroll;
+			
+}
+
+
+div.tab2 {
+    
+overflow: hidden;
+        border: 1px solid #ccc;
+        position:absolute;
+        background-color: #57a382;
+        height:70%;
+       width:60%;
+       margin-left:18%;
+        margin-top:0%;
+    
+}
+
+
+
+/* Style the buttons that are used to open the tab content */
+div.tab2 button {
+     background-color: inherit;
+        float: left;
+        border: white;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 1vw;
+        color:white;
+		font-family: Apercu;
+		font-weight: light;
+		width:8vw;
+		height:3vw;
+
+    }
+
+/* Change background color of buttons on hover */
+div.tab2 button:hover {
+    background-color: #ddd;
+	color:black;
+}
+
+/* Create an active/current "tab button" class */
+div.tab2 button.active {
+    background-color: #ccc;
+	color:black;
+}
+
+
+
+
+div.tabcontent2 {
+     display: table;
+        border: 1px solid #ccc;
+        opaque:false;
+        height:100%;
+      width:100%;	
+       color:#57a382;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		
+			
+}
+div.tabcontent2 textarea{
+	
+    color:#57a382;
+    
+    
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		width:100%;
+		height:90%;
+	
+		
+		
+			
+}
+
+
+
+
+div.links2{
+		
+	position:fixed;
+		margin-left:70%;
+	top:15%;
+		width:300px;
+		height:400px;
+		
+	}
+	
+	
+	
+	
+	div.links2 h1{
+		margin-top:15%;
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:center;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+	
+
+	div.links2 textarea{
+		 color:#57a382;
+border:5pt solid #57a382;
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		margin-top:10%;
+		width:100%;
+		height:100%;
+	}
+
+
+
+
+
+
+
+div.links{
+		
+	position:fixed;
+		margin-left:65%;
+	top:15%;
+		width:300px;
+		height:400px;
+		
+	}
+	
+	
+	
+	
+	div.links h1{
+		margin-top:15%;
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:center;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+	
+
+	div.links textarea{
+		 color:#57a382;
+border:5pt solid #57a382;
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		margin-top:10%;
+		width:100%;
+		height:100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	footer{
+
+		background-color:#57a382;
+		min-height:20px;
+		padding-bottom:10px;
+		margin-top:5%;
+		margin-left:0px;
+		position:fixed;
+		width:100%;
+		bottom:0;
+		left:0;	
+	}
+
+	
+	footer p{
+		
+	font-family: Apercu;
+		font-size: 1.5vw;
+		color:white; text-align: center; 
+		padding-top:10px;
+		padding-right: 5px;
+			
+	}
+	
+	footer a{
+		
+	font-family:Apercu; 
+	font-size: 1.5vw;
+	font-weight:bold;
+	color:white;	
+	
+	}
+
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+	margin-top:0;
+  margin-left:auto;
+	  margin-right:auto;
+
+	display:block;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin button{
+	margin-left: 10%;
+	margin-right: auto;
+	position: relative;
+}
+.form-signin a{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+/* Landscape */
+
+
+@media screen and (max-device-width: 1460px) and (orientation: landscape){
+	
+	
+	
+	
+	
+	
+	  
+	html{
+		
+		margin-left: 10px;margin-right: 10px;margin-bottom:0;margin-top:0;
+		
+	}
+
+	
+	header{
+	background-color:#57a382; 
+		min-height:20pt;
+		margin-top:0;margin-left:0px;
+		position:fixed;
+		width:100%;
+		top:0;left:0;	
+		
+	}
+
+
+	
+	img{
+
+        width:20%;
+		height:auto;
+		margin-right:auto;
+		margin-left:auto;
+		position: relative;
+		padding-bottom: 1%;
+		padding-top:1%;
+		
+display:table-row-group;    }
+	
+	
+	
+	body{
+		
+	
+		height:1500px; width:900px; margin-top:5%	
+	
+		
+	}
+	
+	.scrollis{
+	
+	
+	-webkit-overflow-scrolling:touch
+	
+	}
+
+
+header a{
+font-family:Apercu; 
+		font-weight:light;
+		font-size:1vw; 
+		text-align:right;
+margin-top: -30%;	
+	margin-left:80%;
+		color:white;
+	position: relative;
+	width:10%;
+}
+
+header h2{
+position:relative;
+	font-family:Apercu; 
+		font-weight:light;
+		font-size:1vw; 
+	color:white;
+	
+	margin-top:-2%;
+	margin-left:65%;
+	
+	
+}
+
+
+button{
+border-radius: 6px;
+	width:5vw; height:2vw;
+background-color:white;
+color:#57a382;
+border: 1px solid #57a382;
+font-family:Apercu;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:0.5vw;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom:auto;
+display:table-row-group;
+
+
+
+}
+
+
+	button:hover{
+	background-color:rgba(87,163,130,0.4);
+	color:white;
+	border: 1px solid #57a382;
+	font-family:Apercu;
+	font-weight:bold;
+	}
+
+
+
+button.deletikovski{
+	
+	
+	
+	border-radius: 40%;
+	width:5vw; height:2vw;
+background-color:white;
+color:#57a382;
+border: 1px solid #57a382;
+font-family:Apercu;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:0.5vw;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom:auto;
+display:inline;
+	
+}
+
+
+
+
+	button.deletikovski:hover{
+	background-color:red;
+	color:white;
+	border: 1px solid #57a382;
+	font-family:Apercu;
+	font-weight:bold;
+	}
+
+
+
+
+
+
+
+
+a{
+	
+	font-family:Apercu;
+	font-size:1vw;
+	text-align: center;
+	color:#57a382;
+	
+	
+}
+
+
+a:hover{
+	color:white;
+	font-family:Apercu;
+	font-weight:bold;
+	text-decoration: none;
+	
+}
+
+
+
+p{
+	
+	font-family:Apercu;
+	font-size:1vw;
+	text-align: left;
+	color:#57a382;
+	
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	@font-face {
+   font-family: Apercu;
+   src: url(https://ifcpraktik.hannahbanana.se/ifc/font/Apercu%20Light.otf);
+		   font-weight: light;
+
+}
+
+@font-face {
+   font-family: Apercu;
+   src: url(https://ifcpraktik.hannahbanana.se/ifc/font/Apercu%20Bold.otf);
+   font-weight: bold;
+}
+
+* {
+   font-family: Apercu;
+}
+	
+	
+    table,th,td {
+        border: 1px solid #57a382;
+      
+
+    }
+	 table {
+        width:75%;
+        border-collapse: collapse;
+        
+        margin-left:25%;
+		position:absolute;
+		margin-top:50%;
+
+    }
+	  
+	  
+    th{
+        height:10%;
+       
+        font-size: 1.5vw;
+        font-family: Apercu;
+		background-color:rgba(87,163,130,0.8);
+		font-weight:bold;
+        color:white;
+        text-align: center;
+		
+
+
+    }
+    td{
+       line-height:5pt;
+        font-size: 1vw;
+        font-family: Apercu;
+		font-weight:light;
+        color:#57a382;
+        text-align: center;
+		
+	
+
+    }
+
+
+    tr:hover{
+        background-color: #EED0DC;
+        -webkit-text-fill-color: #000000;
+        -webkit-font-kerning: auto;
+        font-family:Apercu ;
+		font-weight:bold;
+		
+		padding-right:5px;
+		padding-left:5px;
+		
+    }
+	
+	div.tablescroll{
+		height:3000px;
+ overflow-y: scroll;
+width:0.1%;
+		margin-top:-50%;
+		
+       
+	}
+	
+	form{
+		
+		
+		margin-left:7%;
+		margin-top:50%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+display:inline;
+		
+}
+form input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+
+}
+	
+	
+div.form h1 {
+		
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		max-width:150px; 
+		height:auto;
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		line-height: 0;
+
+	}
+
+
+div.form2{
+	
+		margin-left:0%;
+		margin-top:12%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1vw; 
+	width:15%;
+	position:absolute;
+line-height: 0;
+	
+
+	
+}
+
+
+div.form2 input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		border:solid 1px rgba(87,163,130,1.00);
+
+}
+	
+	
+	div.form2 h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+
+	}
+
+
+
+
+
+.formlog{
+		
+		  width: 10%;
+ 
+	margin-top:15%;
+  margin-left:0;
+	 
+
+	display:block;
+
+		
+}
+
+
+
+
+
+div.formlog input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+
+}
+	
+	
+	div.formlog h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+
+
+
+
+
+
+	div.frame1 img{
+						margin-top:5%;
+
+			left:0;
+			height:100%;
+			width:10%;
+			top:0;
+			position: fixed;
+			
+		}
+		
+			div.frame2 img{
+			margin-top:5%;
+			top:0;		
+			right:0;
+			height:100%;
+			width:10%;
+			position:fixed;
+			
+			
+		}
+
+
+
+
+form.form3{
+	
+		margin-left:0;
+		margin-top:15%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		position:absolute;
+		line-height:3pt;
+		
+		
+		font-size:1.5vw; 
+
+
+	
+}
+
+
+.form3 input{
+	width:50%;
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+		
+
+}
+	
+.form3 h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form.login{
+			position: absolute;
+			display:block;
+			text-align:center;
+			height:200px;
+			width:100%;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+				form.login h1{
+					text-align: center;
+								display:block;
+					margin-left: auto;
+			margin-right: auto;
+
+		}
+
+
+div.image img{
+	
+width:auto;
+height:150px;
+
+	position:absolute;
+	margin-left:0;
+	margin-top:2%;
+
+	
+
+
+}
+
+
+
+
+div.editimage img{
+	
+width:150px;
+height:auto;
+
+	position:relative;
+	margin-left:0;
+	margin-top:-33%;
+
+
+}
+
+
+	
+div.links{
+		
+	position:absolute;
+		margin-left:65%;
+	top:12%;
+		width:300px;
+		height:350px;
+		
+	}
+	
+	
+	div.links h1{
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:center;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+	
+
+	div.links textarea{
+		 color:#57a382;
+border:5pt solid #57a382;
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		margin-top:10%;
+		width:100%;
+		height:100%;
+	}
+
+div.tab {
+
+overflow: hidden;
+        border: 1px solid #ccc;
+        
+        background-color: #57a382;
+        height:70%;
+       width:45%;
+       margin-left:17.5%;
+        margin-top:5%;
+    
+		
+		
+}
+
+	div.tabcontent{
+    display: table;
+        border: 1px solid #ccc;
+        opaque:false;
+        height:100%;
+      width:100%;	
+       color:#57a382;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		
+			
+}
+
+	div.tabcontent textarea{
+    color:#57a382;
+    
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		width:100%;
+		height:90%;
+	
+		
+		
+			
+}
+	
+	
+	
+	
+	
+
+    /* Style the buttons inside the tab */
+    div.tab button {
+             background-color: inherit;
+        float: left;
+        border: white;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 1vw;
+        color:white;
+		font-family: Apercu;
+		font-weight: light;
+		width:8vw;
+		height:3vw;
+
+
+    }
+
+    /* Change background color of buttons on hover */
+    div.tab button:hover {
+        background-color: #5B878B;
+    }
+
+    /* Create an active/current tablink class */
+    div.tab button.active {
+        background-color: #EED0DC;
+    }
+
+
+
+div.tab2 {
+    
+overflow: hidden;
+        border: 1px solid #ccc;
+        
+        background-color: #57a382;
+        height:70%;
+       width:45%;
+       margin-left:20%;
+        margin-top:0%;
+    
+}
+
+
+
+/* Style the buttons that are used to open the tab content */
+div.tab2 button {
+     background-color: inherit;
+        float: left;
+        border: white;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 1vw;
+        color:white;
+		font-family: Apercu;
+		font-weight: light;
+		width:8vw;
+		height:3vw;
+
+    }
+
+/* Change background color of buttons on hover */
+div.tab2 button:hover {
+    background-color: #ddd;
+	color:black;
+}
+
+/* Create an active/current "tab button" class */
+div.tab2 button.active {
+    background-color: #ccc;
+	color:black;
+}
+
+
+
+
+div.tabcontent2 {
+     display: table;
+        border: 1px solid #ccc;
+        opaque:false;
+        height:100%;
+      width:100%;	
+       color:#57a382;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		
+			
+}
+div.tabcontent2 textarea{
+	
+    color:#57a382;
+    
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		width:100%;
+		height:90%;
+	
+		
+		
+			
+}
+
+
+
+
+form.form3 input#button{
+
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1vw; 
+		border:solid 1px rgba(87,163,130,1.00);	
+	background-color: transparent;
+	width:6vw;
+	border-radius:6pt;
+		height:2vw;
+	padding-top: 0.8%;
+	
+		padding-left: 2%;
+
+
+}
+
+
+form.form3 input#button:hover{
+	
+		font-weight:bold;
+		background-color: rgba(87,163,130,0.4);
+
+}
+
+
+
+
+button#client
+{
+	
+	
+		border:solid 1px rgba(87,163,130,1.00);	
+	background-color: transparent;
+	width:6vw;
+	border-radius:6pt;
+		height:2vw;
+	padding-bottom: 0.5%;
+	margin-left:7%;
+	margin-top:1%;
+
+
+	
+	
+
+}
+
+
+button#client a{
+font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1vw;
+		
+}
+
+
+button#client:hover{
+	
+		font-weight:bold;
+		background-color: rgba(87,163,130,0.4);
+
+}
+
+	
+
+
+
+
+
+	footer{
+
+		background-color:#57a382;
+		min-height:20px;
+		padding-bottom:10px;
+		margin-top:5%;
+		margin-left:0px;
+		position:fixed;
+		width:100%;
+		bottom:0;
+		left:0;	
+	}
+
+	
+	footer p{
+		
+	font-family: Apercu;
+		font-size: 1.5vw;
+		color:white; text-align: center; 
+		padding-top:10px;
+		padding-right: 5px;
+			
+	}
+	
+	footer a{
+		
+	font-family:Apercu; 
+	font-size: 1.5vw;
+	font-weight:bold;
+	color:white;	
+	
+	}
+
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+	margin-top:0;
+  margin-left:auto;
+	  margin-right:auto;
+
+	display:block;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin button{
+	margin-left: 10%;
+	margin-right: auto;
+	position: relative;
+}
+.form-signin a{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+
+
+div.links2{
+		
+	position:fixed;
+		margin-left:65%;
+	top:12%;
+		width:300px;
+		height:400px;
+		
+	}
+	
+	
+	
+	
+	div.links2 h1{
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:center;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+	
+
+	div.links2 textarea{
+		 color:#57a382;
+border:5pt solid #57a382;
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		margin-top:10%;
+		width:100%;
+		height:100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+	  
+
+}
+
+
+
+@media screen and (max-device-width: 1366px) and (orientation: portrait){
+
+ table {
+        width:75%;
+        border-collapse: collapse;
+        margin-top:-60%;
+        margin-left:22%;
+		position:absolute;
+
+    }
+	  
+	  
+    th{
+        height:10%;
+       
+        font-size: 1.5vw;
+        font-family: Apercu;
+		background-color:rgba(87,163,130,0.8);
+		font-weight:bold;
+        color:white;
+        text-align: center;
+		
+
+
+    }
+    td{
+       line-height:4pt;
+        font-size: 1vw;
+        font-family: Apercu;
+		font-weight:light;
+        color:#57a382;
+        text-align: center;
+
+	
+
+    }
+
+
+    tr:hover{
+        background-color: #EED0DC;
+        -webkit-text-fill-color: #000000;
+        -webkit-font-kerning: auto;
+        font-family:Apercu ;
+		font-weight:bold;
+		
+		padding-right:5px;
+		padding-left:5px;
+		
+    }
+	
+	div.tablescroll{
+		height:1600px;
+ overflow-y: scroll;
+width:0.1%;
+				color:#57a382;
+
+		
+       
+	}
+	  
+	
+	
+	
+	
+	form{
+	
+		position:absolute;
+		margin-left:0%;
+		margin-top:-65%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+display:inline;
+				line-height: 6pt;
+
+		
+}
+form input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+
+}
+	
+	
+div.form h1 {
+		
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		max-width:150px; 
+		height:auto;
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	div.tab {
+
+overflow: hidden;
+        border: 1px solid #ccc;
+        
+        background-color: #57a382;
+        height:50%;
+       width:60%;
+       margin-left:0%;
+        margin-top:45%;
+    
+		
+		
+}
+
+	
+	
+	div.links2{
+		
+	position:fixed;
+		margin-left:65%;
+	top:30%;
+		width:300px;
+		height:600px;
+		
+	}
+	
+	
+	
+	
+	div.links2 h1{
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:center;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+	
+
+	div.links2 textarea{
+		 color:#57a382;
+border:5pt solid #57a382;
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		margin-top:10%;
+		width:100%;
+		height:100%;
+	}
+
+
+div.links{
+		
+	position:absolute;
+		margin-left:62%;
+	top:40%;
+	width:350px;
+		height:500px;
+		
+	}
+	
+	
+	div.links h1{
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:center;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+	
+
+	div.links textarea{
+		 color:#57a382;
+border:5pt solid #57a382;
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		margin-top:10%;
+		width:100%;
+		height:100%;
+	}
+
+
+	div.tabcontent{
+    display: table;
+        border: 1px solid #ccc;
+        opaque:false;
+        height:100%;
+      width:100%;	
+       color:#57a382;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		
+			
+}
+
+	div.tabcontent textarea{
+    color:#57a382;
+    
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		width:100%;
+		height:90%;
+	
+		
+		
+			
+}
+	
+	
+	
+	
+	
+
+    /* Style the buttons inside the tab */
+    div.tab button {
+             background-color: inherit;
+        float: left;
+        border: white;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 1vw;
+        color:white;
+		font-family: Apercu;
+		font-weight: light;
+		width:8vw;
+		height:3vw;
+
+
+    }
+
+    /* Change background color of buttons on hover */
+    div.tab button:hover {
+        background-color: #5B878B;
+    }
+
+    /* Create an active/current tablink class */
+    div.tab button.active {
+        background-color: #EED0DC;
+    }
+
+
+
+div.tab2 {
+    
+overflow: hidden;
+        border: 1px solid #ccc;
+        
+        background-color: #57a382;
+        height:60%;
+       width:60%;
+       margin-left:0%;
+        margin-top:25%;
+    
+}
+
+
+
+/* Style the buttons that are used to open the tab content */
+div.tab2 button {
+     background-color: inherit;
+        float: left;
+        border: white;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 1vw;
+        color:white;
+		font-family: Apercu;
+		font-weight: light;
+		width:8vw;
+		height:3vw;
+
+    }
+
+/* Change background color of buttons on hover */
+div.tab2 button:hover {
+    background-color: #ddd;
+	color:black;
+}
+
+/* Create an active/current "tab button" class */
+div.tab2 button.active {
+    background-color: #ccc;
+	color:black;
+}
+
+
+
+
+div.tabcontent2 {
+     display: table;
+        border: 1px solid #ccc;
+        opaque:false;
+        height:100%;
+      width:100%;	
+       color:#57a382;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		
+			
+}
+div.tabcontent2 textarea{
+	
+    color:#57a382;
+    
+    
+    -webkit-overflow-scrolling:touch;
+		font-family:Apercu;
+		font-weight:light;
+		font-size:1.5vw;
+		text-align:left;
+		width:100%;
+		height:90%;
+	
+		
+		
+			
+}
+
+	
+	
+	div.image img{
+	
+width:auto;
+height:200px;
+
+	position:fixed;
+	margin-left:0;
+	margin-top:2%;
+
+	
+
+
+}
+
+
+
+
+div.editimage img{
+	
+height:auto;
+width:150px;
+
+	position:absolute;
+	margin-left:-45%;
+	margin-top:10%;
+	display: inline;
+	
+
+
+}
+
+	
+	
+	
+	
+	
+	form.form3{
+	
+		margin-left:20%;
+		margin-top:5%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		position:absolute;
+		line-height:6pt;
+		width:400px;
+		font-size:1.5vw; 
+		display:inline-table;
+
+
+	
+}
+
+
+form.form3 input{
+	width:40%;
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+		
+
+}
+	
+form.form3 h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:2vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		line-height:60%;
+		
+	}
+
+
+
+	  div.form2{
+	
+		margin-left:25%;
+		margin-top:-3%;
+		font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+	width:100%;
+	position:fixed;
+display:inline;	
+		  line-height:0pt;
+}
+
+
+div.form2 input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+	padding-left:10px;
+			
+
+	
+
+}
+	
+	
+	div.form2 h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		
+		font-size:1.5vw; 
+		text-align:left;
+		vertical-align:top;
+		color:#57a382;
+		
+				  
+
+
+	}
+
+
+
+	  
+
+button{
+border-radius: 6px;
+	width:5vw; height:2vw;
+background-color:white;
+color:#57a382;
+border: 1px solid #57a382;
+font-family:Apercu;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:0.5vw;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom:auto;
+display:table-row-group;
+
+
+
+}
+
+
+	button:hover{
+	background-color:rgba(87,163,130,0.4);
+	color:white;
+	border: 1px solid #57a382;
+	font-family:Apercu;
+	font-weight:bold;
+	}
+
+
+
+button.deletikovski{
+	
+	
+	
+	border-radius: 40%;
+	width:5vw; height:2vw;
+background-color:white;
+color:#57a382;
+border: 1px solid #57a382;
+font-family:Apercu;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:0.5vw;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom:auto;
+display:inline;
+	
+}
+
+
+
+
+	button.deletikovski:hover{
+	background-color:red;
+	color:white;
+	border: 1px solid #57a382;
+	font-family:Apercu;
+	font-weight:bold;
+	}
+
+
+
+
+
+
+
+
+form.form3 input#button{
+
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);	
+	background-color: transparent;
+	width:12vw;
+	border-radius:6pt;
+		height:3vw;
+	padding-top: 0.8%;
+	position:absolute;
+		padding-left: 2%;
+	margin-left:-42%;
+	margin-top:-10%;
+
+
+}
+
+
+form.form3 input#button:hover{
+	
+		font-weight:bold;
+		background-color: rgba(87,163,130,0.4);
+
+}
+
+
+
+
+button#client
+{
+	
+	
+		border:solid 1px rgba(87,163,130,1.00);	
+	background-color: transparent;
+	width:12vw;
+	border-radius:6pt;
+		height:3vw;
+	padding-bottom: 0.5%;
+position:absolute;
+margin-top:0%;
+	margin-left:-42%;
+	
+	
+	
+
+}
+
+
+button#client a{
+font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw;
+		
+}
+
+
+button#client:hover{
+	
+		font-weight:bold;
+		background-color: rgba(87,163,130,0.4);
+
+}
+
+	
+
+
+
+
+form.formlog{
+		
+		  width: 250px;
+ 
+	margin-top:5%;
+  margin-left:0;
+	 
+
+	display:inline;
+
+		
+}
+
+
+
+
+
+form.formlog input{
+	
+	font-family:Apercu; 
+		font-weight:light;
+		color:#57a382;
+		font-size:1.5vw; 
+		border:solid 1px rgba(87,163,130,1.00);
+	width:100%;
+	
+
+}
+	
+	
+	.formlog h1 {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		font-size:2vw; 
+		text-align:left;
+		color:#57a382;
+		
+	}
+	.formlog p {
+		
+		font-family:Apercu; 
+		font-weight:bold;
+		font-size:2vw; 
+		text-align:left;
+		color:#57a382;
+		
+	}
+
+
+	p.logstatus{
+
+	font-family:Apercu;
+	font-size:2.5vw;
+	text-align: left;
+		
+	color:#57a382;
+	margin-top:20%;
+	
+
+		
+		
+	}
+	  
+	  
+	
+	
+	  
+	
+	
+	footer{
+
+		background-color:#57a382;
+		height:50px;
+		padding-bottom:10px;
+		margin-top:5%;
+		margin-left:0px;
+		position:fixed;
+		width:100%;
+		bottom:0;
+		left:0;	
+		padding-top:8pt;	
+	}
+
+		footer p{
+		
+	font-family: Apercu;
+		font-size: 1.5vw;
+		color:white; 
+			text-align: center; 
+margin-top:-5pt;
+			
+	}
+	
+	footer a{
+		
+	font-family:Apercu; 
+	font-size: 1.5vw;
+	font-weight:bold;
+	color:white;	
+	
+	}
+	p,a{
+		
+		font-family: Apercu;
+		font-size: 2vw;
+		color:#57a382; 
+			text-align: left; 
+		margin-top:30%;
+
+		
+	}
+	  
+
+}
+
+
+
